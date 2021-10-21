@@ -13,6 +13,7 @@
   <body>
     <h1 class="bg-warning"></h1>
 <main>
+    <a href="src/index.php" class="btn btn-success"><i class="fas fa-user-plus"></i>Chi tiết</a>
     <table class="table">
         <thead>
             <tr>
@@ -21,7 +22,6 @@
                 <th scope="col">Tên</th>
                 <th scope="col">Email</th>
                 <th scope="col">Số điện thoại</th>
-                <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
@@ -36,7 +36,6 @@
                         echo '<td>'.$row['firstname'].'</td>';
                         echo '<td>'.$row['email'].'</td>';
                         echo '<td>'.$row['mobile'].'</td>';
-                        echo '<td><a href="showpatientid.php?id='.$row['patientid'].'"><i class="show_more"></i></a></td>';
                         echo '</tr>';}
                 }
             ?>
