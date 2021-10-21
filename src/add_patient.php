@@ -92,5 +92,11 @@ include './CSE_K61_KTGK_1951061070/config.php';
                 <input type="date" class="form-control" id="modified_on" name="modified_on">
                 </div>
             </div>
-
+            <div class="form-group row">
+                <label for="empMobile" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-success">Lưu lại</button>
+                </div>
+            </div>
+        </form>
 </main>
